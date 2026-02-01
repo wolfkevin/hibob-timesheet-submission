@@ -1,0 +1,20 @@
+{
+  "name": "hibob-timesheet-submission",
+  "version": "1.0.0",
+  "description": "Automate monthly HiBob timesheet submission",
+  "main": "hibob-timesheet-submission.js",
+  "scripts": {
+    "start": "node hibob-timesheet-submission.js"
+  },
+  "keywords": [
+    "hibob",
+    "timesheet",
+    "automation",
+    "playwright"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "playwright": "^1.40.0"
+  }
+}
