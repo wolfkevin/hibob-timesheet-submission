@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Automate monthly HiBob timesheet submission",
   "main": "hibob-timesheet-submission.js",
+  "bin": {
+    "hibob-timesheet-submission": "./hibob-timesheet-submission.js"
+  },
   "scripts": {
     "start": "node hibob-timesheet-submission.js"
   },

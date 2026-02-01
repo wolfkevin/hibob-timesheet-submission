@@ -41,13 +41,13 @@ node hibob-timesheet-submission.js
 
 ### Schedule with cron (recommended)
 
-Run automatically at 2am on the 1st of each month:
+Run automatically at 12:01am on the 1st of each month:
 
 ```bash
 crontab -e
 
 # Add this line (adjust paths as needed):
-0 2 1 * * cd /path/to/hibob-timesheet-submission && /usr/bin/node hibob-timesheet-submission.js >> hibob.log 2>&1
+1 0 1 * * cd /path/to/hibob-timesheet-submission && /usr/bin/node hibob-timesheet-submission.js >> hibob.log 2>&1
 ```
 
 **Note:** If your computer is asleep, the job runs when you wake it.
